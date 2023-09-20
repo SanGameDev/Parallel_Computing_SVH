@@ -1,3 +1,3 @@
 # ProgramacionDeParalelismo
 
-Pus ojala se entregue todo =D
+#Pus ojala se entregue todo =D
