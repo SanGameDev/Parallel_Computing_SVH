@@ -7,9 +7,9 @@ OpenCV (Open Computer Vision):
 Elementos del código:
 
 - Definición de imágenes:
-Las imágenes en términos de computación son en su expresión mas básica, matrices de valores, equivalentes a los pixeles de la imagen en su ancho y altura, y su valor contiene la información de color del pixel.
+Las imágenes en términos de computación son en su expresión mas básica, son matrices de valores, equivalentes a los pixeles de la imagen en su ancho y altura, y su valor contiene la información de intencidad de cada color del pixel.
 - Proceso de modificación por Color Map:
-El proceso se basa en dividir la imagen en sus canales RGB, para obtener valores individuales, y en base a esos valores, modificar los valores de pixeles de la manera deseada, en este caso se les aplica un 'Color Map', el cual modifica los pixeles en base a su valor numérico, utilizando escalas de colores predefinidas.
+El proceso se basa en dividir la imagen en sus canales RGB, para obtener valores individuales de intensidad de cada color, y en base a esos valores, modificar los valores de pixeles de la manera deseada, en este caso se les aplica un 'Color Map', el cual modifica los pixeles en base a su valor numérico, utilizando escalas de colores definidas por el 'Color Map'.
 
 ```c++
 #include <iostream>
