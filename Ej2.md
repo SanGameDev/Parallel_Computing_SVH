@@ -18,10 +18,10 @@ El proceso se basa en dividir la imagen en sus canales RGB, para obtener valores
 #include <filesystem>
 
      int main() {
-         //Input image file path
          std::string image_path;
          std::cout << "Enter the path to the image: ";
-         std::cin >> image_path;
+         std::cin >> image_path; //Input the image file path
+
          //Check if filepath exists
          if (!std::filesystem::exists(image_path)) {
              std::cout << "File does not exist at the specified path" << std::endl;
@@ -49,9 +49,9 @@ El proceso se basa en dividir la imagen en sus canales RGB, para obtener valores
 
          //Modify images by color maps
          cv::Mat blueChannel, greenChannel, redChannel;
-         cv::applyColorMap(bgr[0], blueChannel, cv::COLORMAP_JET);
-         cv::applyColorMap(bgr[1], greenChannel, cv::COLORMAP_SPRING);
-         cv::applyColorMap(bgr[2], redChannel, cv::COLORMAP_AUTUMN);
+         cv::applyColorMap(bgr[0], blueChannel, cv::COLORMAP_PINK);
+         cv::applyColorMap(bgr[1], greenChannel, cv::COLORMAP_PLASMA);
+         cv::applyColorMap(bgr[2], redChannel, cv::COLORMAP_TWILIGHT);
 
          // Create modified image windows
          cv::imshow("blueChannel", blueChannel);
