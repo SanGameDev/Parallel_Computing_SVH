@@ -11,6 +11,10 @@ Las imágenes en términos de computación son en su expresión mas básica, son
 - Proceso de modificación por Color Map:
 El proceso se basa en dividir la imagen en sus canales RGB, para obtener valores individuales de intensidad de cada color, y en base a esos valores, modificar los valores de pixeles de la manera deseada, en este caso se les aplica un 'Color Map', el cual modifica los pixeles en base a su valor numérico, utilizando escalas de colores definidas por el 'Color Map'.
 
+---
+
+## Codigo
+
 ```c++
 #include <iostream>
 #include <opencv2/opencv.hpp>
@@ -60,6 +64,8 @@ El proceso se basa en dividir la imagen en sus canales RGB, para obtener valores
          cv::waitKey(0);
      }
 ```
+
+---
 
 Análisis de complejidad de tiempo
 
