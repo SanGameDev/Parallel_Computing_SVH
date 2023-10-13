@@ -20,3 +20,9 @@
   “Qué son los Nvidia CUDA Cores y cuál es su importancia”. Profesional Review. Accedido el 4 de octubre de 2023. [En línea]. Disponible: https://www.profesionalreview.com/2018/10/09/que-son-nvidia-cuda-core/ 
   “Threads y Procesos”. CódigoFacilito. Accedido el 4 de octubre de 2023. [En línea]. Disponible: https://codigofacilito.com/articulos/threads-procesos
   “Understanding cuda grid dimensions, block dimensions, and thread organization,” Saturn Cloud Blog, https://saturncloud.io/blog/understanding-cuda-grid-dimensions-block-dimensions-and-thread-organization/
+
+
+  arquitecturas de las tarjetas graficas
+  como funcionan las arquitecturas de las graficas
+  core - warp - bloque 
+  
