@@ -1,6 +1,6 @@
 ﻿# Examen
 
-Ta chido el tema pero es musho pa me pendejo cerebro 
+AYUDAAAAAAAAAAAAAA
 ---
 ### Reporte 4  readSegmentUnroll
 
