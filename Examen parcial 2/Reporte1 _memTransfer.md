@@ -5,7 +5,7 @@ Yo creo que si me quedo chida esta madre
 ### Reporte 1  memTransfer
 
 Se realizaron un total de 2 operaciones en la GPU y son las siguientes:
-- [CUDA memcpy DtoH]:
+- [CUDA memcpy HtoD]:
 	> En la linea 40 `` CHECK(cudaMemcpy(d_a, h_a, nbytes, cudaMemcpyHostToDevice)); `` se encarga de la transferencia de datos de la CPU (que es el arreglo `h_a`) a la GPU (el arreglo `d_a`), `nbytes` se encarga de indicarle la cantidad de bytes necesarios para almacenar los datos y el `cudaMemcpyHostToDevice` es el que le indica que es de la CPU a la GPU la transferencia de datos, esta transferencia de datos se hace para que la GPU se encarge de hacer calculos que los valores que se encuentran en la CPU. Se llamo 1 vez, con un tiempo promedio de ejecución de *2.1117ms* y le tomo un total del *52.15%* de el tiempo total de las operaciones de la GPU.
 	
 - [CUDA memcpy DtoH]:
