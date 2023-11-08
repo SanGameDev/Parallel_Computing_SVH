@@ -2,7 +2,7 @@
 
 Ta chido el tema pero es musho pa me pendejo cerebro 
 ---
-### Reporte 4  readSegment
+### Reporte 3  readSegment
 
 Se realizaron un total de 3 operaciones en la GPU y son las siguientes:
 
