@@ -2,7 +2,7 @@
 
 Y según yo se terminaba temprano esto x,D 
 ---
-### Reporte 10  sumMatrixGPUManual
+### Reporte 10  transpose
 Igual que en el otro voy a dejar solo con el código y los valores del análisis todos los que ya se hayan repetido =,,,,D  **x5**
 
 Se realizaron un total de 3 operaciones en la GPU y es la siguiente:
