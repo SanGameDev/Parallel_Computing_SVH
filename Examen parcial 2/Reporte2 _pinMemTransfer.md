@@ -2,7 +2,7 @@
 
 Profe esto esta muy tardado y apenas voy en el 2 ;-;
 ---
-### Reporte 3  pinMemTransfer
+### Reporte 2  pinMemTransfer
 
 Se realizaron un total de 2 operaciones en la GPU y son las siguientes:
 - [CUDA memcpy HtoD]:
